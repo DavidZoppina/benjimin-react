@@ -3,7 +3,6 @@
     "version": "3.0.2",
     "private": true,
     "dependencies": {
-        "node": "^16.16.0",
         "@auth0/auth0-spa-js": "^1.14.0",
         "@babel/preset-env": "^7.18.10",
         "@emotion/cache": "^11.4.0",
@@ -79,7 +78,22 @@
         "slick-carousel": "^1.8.1",
         "stylis-plugin-rtl": "^2.0.2",
         "uuid": "^8.3.2",
-        "yup": "^0.32.9"
+        "yup": "^0.32.9",
+         "@babel/core": "^7.14.3",
+        "@babel/eslint-parser": "^7.15.8",
+        "eslint": "^7.27.0",
+        "eslint-config-airbnb-typescript": "^12.3.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-react-app": "6.0.0",
+        "eslint-import-resolver-typescript": "2.4.0",
+        "eslint-plugin-flowtype": "^5.7.2",
+        "eslint-plugin-import": "^2.23.3",
+        "eslint-plugin-jsx-a11y": "6.3.1",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-react": "^7.26.1",
+        "eslint-plugin-react-hooks": "4.0.8",
+        "prettier": "2.2.1",
+        "sass": "^1.42.1"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -109,21 +123,4 @@
             "last 1 safari version"
         ]
     },
-    "devDependencies": {
-        "@babel/core": "^7.14.3",
-        "@babel/eslint-parser": "^7.15.8",
-        "eslint": "^7.27.0",
-        "eslint-config-airbnb-typescript": "^12.3.1",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-config-react-app": "6.0.0",
-        "eslint-import-resolver-typescript": "2.4.0",
-        "eslint-plugin-flowtype": "^5.7.2",
-        "eslint-plugin-import": "^2.23.3",
-        "eslint-plugin-jsx-a11y": "6.3.1",
-        "eslint-plugin-prettier": "^3.4.0",
-        "eslint-plugin-react": "^7.26.1",
-        "eslint-plugin-react-hooks": "4.0.8",
-        "prettier": "2.2.1",
-        "sass": "^1.42.1"
-    }
 }
