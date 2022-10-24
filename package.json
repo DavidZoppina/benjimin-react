@@ -3,6 +3,7 @@
     "version": "3.0.2",
     "private": true,
     "dependencies": {
+        "node": "^16.16.0",
         "@auth0/auth0-spa-js": "^1.14.0",
         "@babel/preset-env": "^7.18.10",
         "@emotion/cache": "^11.4.0",
